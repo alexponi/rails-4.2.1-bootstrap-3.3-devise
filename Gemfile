@@ -44,3 +44,14 @@ group :development, :test do
   gem 'spring'
 end
 
+
+gem 'bootstrap-sass'
+gem 'devise'
+gem 'high_voltage'
+gem 'therubyracer', :platform=>:ruby
+
+group :development do
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
